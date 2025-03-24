@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>商品卡</title>
+    <style>
+        body {
+            min-height: 100vh;
+            background-color: black;
+            display: flex;
+        }
+
+        .container {
+            width: 1000px;
+            height: 1000px;
+            background-color: white;
+            margin: auto;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            display: flex;
+            font-size: 30px;
+        }
+
+        .dysc, .ziying {
+            margin: 10px;
+            margin-top: 20px;
+        }
+
+        .ziying {
+            background-color: black;
+            color: antiquewhite;
+            margin-left: 0px;
+        }
+
+        .content {
+            margin: auto;
+        }
+
+        .pencil {
+            width: 500px;
+        }
+
+        .footer {
+            width: 1000px;
+            height: 300px;
+            color: white;
+            background-image: url(./图片/底部.png);
+            display: flex;
+            justify-content: space-between;
+            background-size: cover;
+        }
+
+        .ptzy, .sfsf {
+            font-size: 30px;
+            margin: 50px 150px;
+        }
+
+        .sfsf {
+            color: brown;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="dysc">抖音商城</span>
+            <span class="ziying">自营</span>
+        </div>
+        <div class="content">
+            <img src="./图片/笔.jpg" alt="" class="pencil">
+        </div>
+        <div class="footer">
+            <div class="ptzy">平台自营 正品保障</div>
+            <div class="sfsf">顺丰速发</div>
+        </div>
+    </div>
+</body>
+
+</html>
